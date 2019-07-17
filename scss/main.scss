@@ -95,13 +95,13 @@ html{
   width: 40px;
   margin: 2px;
 }
-@media (min-width: 750px) {
+@media (min-width: 1080px) {
   .menu-toggle{
     display: none;
 
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 1080px) {
   .menu {
     transition: 0.5s;
     position: absolute;
@@ -229,7 +229,7 @@ html{
   width: 100%;
   margin: 0;
 }
-@media (max-width: 820px) {
+@media (max-width: 1080px) {
   .info{
     height: 100px;
     width: 400px;
@@ -276,7 +276,7 @@ html{
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1080px) {
   .about{
     display: flex;
     flex-direction: column;
@@ -351,7 +351,7 @@ html{
   flex-wrap: wrap;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1080px){
   .gallery img{
     width: 200px;
     height: 350px;
@@ -390,6 +390,7 @@ img:hover {
   transition: 0.3s;
   transform: scale(1.2);
 }
+
 @mixin icons{
   width: 250px;
   height: 250px;
@@ -417,7 +418,7 @@ img:hover {
   @include icons;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1080px) {
   .html img{
     width: 180px;
     height: 180px;
@@ -472,7 +473,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1080px) {
   input[type=text], select, textarea{
     width: 350px;
   }
