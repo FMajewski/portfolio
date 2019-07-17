@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filip Majewski</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src = "js/lightbox-plus-jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <ul class="nav_list">
+                    <li class="nav_list_items"><a href="#home" class="nav_item">HOME</a></li>
+                    <li class="nav_list_items"><a href="#omnie" class="nav_item">O MNIE</a></li>
+                    <li class="nav_list_items"><a href="#projekty" class="nav_item">PROJEKTY</a></li>
+                    <li class="nav_list_items"><a href="#technologie" class="nav_item">TECHNOLOGIE</a></li>
+                    <li class="nav_list_items"><a href="#kontakt" class="nav_item">KONTAKT</a></li>
+                </ul>
+
+            </nav>
+            <button class="menu-toggle" aria-label="menu toggle">
+                <span class="toggle"></span>
+                <span class="toggle"></span>
+                <span class="toggle"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="section-1" id="home">
+            <div class="parallax">
+            </div>
+                <div class="info">
+                    <span class="name"><h1 id="1">FILIP MAJEWSKI</h1></span>
+                    <span class="text"><h2>Junior Front-End Developer</h2></span>
+                </div>
+        </section>
+        <section class="section-2" id="omnie">
+            <div class="container about">
+                    <span class="photo1">
+                    </span>
+                    <span class="aboutme">
+                        <h2 class="aboutme_title">COŚ O MNIE</h2>
+                        <p class="aboutme_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="section-3 parallax2" id="projekty">
+            <div class="container">
+                <div class="projects">
+                    <span class="projects_title">
+                        <h1 id="3">Moje projekty</h1>
+                    </span>
+                    <div class="gallery">
+                        <a href="images/Sit-On-Chair.jpg" data-lightbox="mygallery" data-title="SitOnChair">
+<!--                           <p class="onfoto">Sit On Czhair</p>-->
+                            <img src="images/Sit-On-Chair.jpg">
+                        </a>
+                        <a href="images/Sit-On-Chair.jpg" data-lightbox="mygallery" data-title="SitOnChair">
+                            <!--                           <p class="onfoto">Sit On Czhair</p>-->
+                            <img src="images/black-and-white-black-and-white-depth-of-field-785429%20(1).jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-4" id="technologie">
+            <div class="container">
+                <h1>Technologie, które używam:</h1>
+                <div class="tech">
+                    <div class="icons">
+                        <span class="html">
+                            <img src="images/icons/HTML5_1Color_Black.png">
+                        </span>
+                        <span class="css">
+                            <img src="images/icons/css3.svg">
+                        </span>
+                        <span class="js">
+                            <img src="images/icons/js.png">
+                        </span>
+                        <span class="react">
+                            <img src="images/icons/React.png">
+                        </span>
+                        <span class="sass">
+                            <img src="images/icons/sass.png">
+                        </span>
+                        <span class="jquery">
+                            <img src="images/icons/jquery-logo-png-jquery-320.png">
+                        </span>
+                        <span class="git">
+                            <img src="images/icons/git.png">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="socialmedia">
+            <div class="float-sm">
+                <div class="fl-fl float-fb">
+                    <i class="fa fa-facebook-f" style="font-size: 23px"></i>
+                    <a href="https://www.facebook.com/majewski.f" target="_blank">Facebook</a>
+                </div>
+                <div class="fl-fl float-ld">
+                    <i class="fa fa-linkedin" style="font-size: 23px"></i>
+                    <a href="https://www.linkedin.com/in/filip-majewski-553000174/" target="_blank">Linkedin</a>
+                </div>
+                <div class="fl-fl float-gt">
+                    <i class="fa fa-github" aria-hidden="true" style="font-size: 23px"></i>
+                    <a href="https://github.com/FMajewski" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer parallax2" id="kontakt">
+        <div class="container">
+            <div class="contact">
+                <div class="footer_info">
+                    <h1>Zapraszam do kontaktu</h1>
+                    <p>Tel. 694 665 271</p>
+                    <p>Email: filip.maj3wski@gmail.com</p>
+                </div>
+                <div class="mailus">
+                    <form>
+                        <label for="fname"></label>
+                        <input type="text" id="fname" name="firstname" placeholder="Twoje imię">
+                        <label for="lname"></label>
+                        <input type="text" id="lname" name="lastname" placeholder="Twój adres email">
+                        <label for="subject"></label>
+                        <textarea id="subject" name="subject" placeholder="Napisz coś" style="height:100px"></textarea>
+
+                        <input type="submit" value="Wyślij">
+                    </form>
+                </div>
+
+            </div>
+    </footer>
+    <script src="js/js.js" defer></script>
+</body>
+</html>
